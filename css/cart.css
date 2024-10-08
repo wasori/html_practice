@@ -1,0 +1,19 @@
+div, input{
+    box-sizing : border-box;
+}
+
+body {
+    margin : 0;
+}
+
+html {
+    line-height : 1.15; /*기본 행간 높이*/
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+}

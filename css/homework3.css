@@ -1,0 +1,57 @@
+div, input{
+    box-sizing : border-box;
+}
+
+body {
+    margin : 0;
+    background-color: rgb(163, 209, 228);
+}
+
+html {
+    line-height : 1.15; /*기본 행간 높이*/
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+thead tr td {
+    height: 35px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+.main-title {
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(30, 30, 78);
+}
+
+.main-table {
+    width: 100%;
+    height: 330px;
+    border: 1px solid black;
+}
+
+.main-bottom {
+    width: 100%;
+    height: 85px;
+    border: 1px solid black;
+}
+
